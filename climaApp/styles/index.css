@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Montserrat&family=Nunito:wght@200&family=Outfit:wght@100&family=Playfair+Display&family=Poppins:wght@100;200;400&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+main  { 
+    height: 100vh;
+    display: flex;
+    background: rgb(0, 0, 0);
+}
+
+
+main section { 
+    
+    box-shadow: 0 7px 20px 7px rgba(0, 0, 0, 0.247);
+    background: rgb(50, 48, 63);
+    border-radius: 20px;
+    height: 75vh;
+    width: 300px;
+    color: rgb(80, 80, 80);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    height: 70%;
+    width: 100%;
+}
+
+header .info { 
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header .info div {
+    display: flex;
+    padding: 5px;
+
+}
+
+header .info div p { 
+    margin-left: 5px;
+}
+
+
+#temperature { 
+
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    padding: 15px;
+}
+
+#description { 
+    font-size: 1.3rem;
+}
+
+.bottom { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.weather {
+    background: rgb(36, 32, 44);
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+    color: white;
+}
+
+.left { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8px;
+}
+
+
+.left i { 
+    font-size: 12px;
+}
+
+
+.left h2 {
+    padding: 3px 0 3px 0;
+    margin: 3px 0 3px 0;
+}
+.right { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.right i {
+    margin: 5px; 
+    font-size: 12px;
+}
